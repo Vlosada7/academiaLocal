@@ -1,11 +1,12 @@
 <script>
   import imageHome from '../assets/musculacao.jpg'
+  import muscleIcon from '../assets/icon-muscle.png'
 </script>
 
 
 <section class="intro" style="background-image: url({imageHome});">
   <div class="intro__wrapper wrap">
-    <h1>Are you ready <br>for the challenge?</h1>
+    <h1>Are you ready <br>for the challenge? <img src="{muscleIcon}" alt="Muscle emoji"></h1>
     <p>The Local Gym is ready to help you achieve your goals.</p>
     <a class="btn" href="/sobre">About us</a>
   </div>
@@ -38,5 +39,9 @@
   p{
     font-size: calc(18 / 16 * 1rem);
     margin-top: 16px;
+  }
+  img {
+    display: inline;
+    max-width: 36px;
   }
 </style>
