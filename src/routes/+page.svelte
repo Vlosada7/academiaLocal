@@ -5,9 +5,9 @@
 
 <section class="intro" style="background-image: url({imageHome});">
   <div class="intro__wrapper wrap">
-    <h1>Are you ready for the challenge?</h1>
+    <h1>Are you ready <br>for the challenge?</h1>
     <p>The Local Gym is ready to help you achieve your goals.</p>
-    <a href="/sobre">About us</a>
+    <a class="btn" href="/sobre">About us</a>
   </div>
 </section>
 
@@ -29,5 +29,14 @@
   }
   .intro__wrapper {
     z-index: 1;
+    max-width: 450px;
+  }
+  .btn{
+    margin-top: 24px;
+
+  }
+  p{
+    font-size: calc(18 / 16 * 1rem);
+    margin-top: 16px;
   }
 </style>
