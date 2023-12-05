@@ -1,16 +1,22 @@
 <script>
   import imgMusculacao from '$lib/assets/musculacao.jpg'
+  import imgExercicios from '$lib/assets/exercicios.jpg'
+
   import iconMuscle from '$lib/assets/icon-muscle.png'
+  import iconWeight from '$lib/assets/icon-weight.png'
 
   export let title;
   export let content;
   export let btn;
   export let href;
   export let img;
+
   if (img === 'musculacao') img = imgMusculacao;
+  if (img === 'exercicios') img = imgExercicios;
 
   export let icon;
   if (icon === 'muscle') icon = iconMuscle;
+  if (icon === 'weight') icon = iconWeight;
 </script>
 
 <section class="intro" style="background-image: url({img});">
