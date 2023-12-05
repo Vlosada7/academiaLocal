@@ -1,6 +1,6 @@
 <script>
-  import imageHome from '../assets/musculacao.jpg'
-  import muscleIcon from '../assets/icon-muscle.png'
+  import imageHome from '$lib/assets/musculacao.jpg'
+  import muscleIcon from '$lib/assets/icon-muscle.png'
 </script>
 
 
