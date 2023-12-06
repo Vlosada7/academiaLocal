@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/stores'
   import { modalities } from '$lib/stores'
+	import IntroSingle from '$lib/IntroSingle.svelte';
 
   let modalitie = $page.params.slug
   
@@ -8,5 +9,4 @@
   console.log(data);
 </script>
 
-<h1>{data.name}</h1>
-
+<IntroSingle data={data}/>
