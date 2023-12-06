@@ -10,7 +10,7 @@
         <li><a href='/'>Home</a></li>
         <li><a href='/aboutUs'>About Us</a></li>
         <li><a href='/modalities'>Modalities</a></li>
-        <li><a class="btn header__btn" href="#contato">Contact Us</a></li>
+        <li><a class="btn header__btn" href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </div>
