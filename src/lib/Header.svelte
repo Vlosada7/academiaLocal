@@ -50,4 +50,14 @@
   a:not(.btn):hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 800px) {
+    .header__wrapper {
+      flex-direction: column;
+      justify-content: center;
+    }
+    nav {
+      margin-left: unset;
+    }
+  }
 </style>
