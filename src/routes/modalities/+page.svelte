@@ -18,3 +18,15 @@
     {/each}
   </div>
 </section>
+
+<style>
+  .modalitites {
+    margin-top: 60px; 
+  }
+  .modalities__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+</style>
