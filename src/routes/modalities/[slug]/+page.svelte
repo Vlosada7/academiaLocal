@@ -6,7 +6,8 @@
 
   let modalitie = $page.params.slug
   
-  let data = $modalities.find(e => e.slug === modalitie);
+  // let data = $modalities.find(e => e.slug === modalitie);
+  export let data;
 </script>
 
 <IntroSingle data={data}/>
