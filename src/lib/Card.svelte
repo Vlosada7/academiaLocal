@@ -2,10 +2,9 @@
   export let info;
   import { page } from '$app/stores'
   
-  let archive = $page.route.id;
 </script>
 
-<a href="{archive}/{info.slug}" class="card">
+<a href="/modalities/{info.slug}" class="card">
   <img src="{info.img}" alt="" width="120" height="120">
   <h2>{info.name}</h2>
 </a>
