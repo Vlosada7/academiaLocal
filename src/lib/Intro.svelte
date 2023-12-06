@@ -1,18 +1,20 @@
 <script>
   import imgMusculacao from '$lib/assets/musculacao.jpg'
   import imgExercicios from '$lib/assets/exercicios.jpg'
+  import imgAlongamento from '$lib/assets/alongamento.jpg'
 
   import iconMuscle from '$lib/assets/icon-muscle.png'
   import iconWeight from '$lib/assets/icon-weight.png'
 
   export let title;
   export let content;
-  export let btn;
-  export let href;
+  export let btn = false;
+  export let href = false;
   export let img;
 
   if (img === 'musculacao') img = imgMusculacao;
   if (img === 'exercicios') img = imgExercicios;
+  if (img === 'alongamento') img = imgAlongamento;
 
   export let icon;
   if (icon === 'muscle') icon = iconMuscle;
@@ -21,7 +23,7 @@
 
 <section class="intro" style="background-image: url({img});">
   <div class="intro__wrapper wrap">
-    <h1>{@html title} <img src="{icon}"></h1>
+    <h1>{@html title} <img src="{icon}" alt=""></h1>
     <p>{content}</p>
     {#if btn && href}
     <a class="btn" href="{href}">{btn}</a>

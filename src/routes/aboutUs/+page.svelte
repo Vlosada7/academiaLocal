@@ -23,7 +23,7 @@
     />
     <Info 
       question = "How many modalities are available at the gym?"
-      answer = "The gym is open 24/7, the student can attend the gym as many times a week as they want, depending on the plan contracted."
+      answer = "5 modalities, including weight training, crossfit, stretching, group exercises and swimming."
     />
   </div>
 </section>
